@@ -6,31 +6,34 @@
         <link rel="stylesheet" type="text/css" href="syles\normalize.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta charset="UTF-8">
+        <meta name="author" content="Victoria Cia">
+        <meta name="description" content="Portfolio Developer Codewell Victoria Cia">
+        <meta name="keyword" content="Portfolio, Victoria Cia, CSS, HTML">
         <script src="https://kit.fontawesome.com/cfd486c001.js" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     </head>
     <body>
-        <div class="flex-container">
+        <div class="flex-container fullHeight">
             <header class="header"> 
-                        <nav class="nav">                           
-                            <a href="index.html" class="nav__logo font-tit">Victoria Cia</a>
-                            <!-- The order that we place the checkbox and label here is important because we will use css only for the click event to open the menu on mobile. -->
-                            <input type="checkbox" id="toggler">
-                            <label for="toggler"><i class="ri-menu-line"></i></label>
-                            <div class="nav__menu">
-                                <ul class="nav__ul">
-                                    <li class="nav__li"><a href="#"> Articles</a></li>
-                                    <li class="nav__li"><a href="#">Chats</a></li>
-                                    <li class="nav__li"><a href="#">Awards</a></li>
-                                    <li class="nav__li"><a href="#">About</a></li>
-                                </ul>
-                            </div>
-                            <a href="contact.html"><button type="button" class="button font-tit" id="button-nav">Get in touch</button></a>
-                        </nav>
+                <nav class="nav">                           
+                    <a href="index.html" class="nav__logo"><h1 class="font-tit">Victoria Cia</h1></a>
+                    <!-- The order that we place the checkbox and label here is important because we will use css only for the click event to open the menu on mobile. -->
+                    <input type="checkbox" id="toggler">
+                    <label for="toggler"><i class="ri-menu-line"></i></label>
+                    <div class="nav__menu">
+                        <ul class="nav__ul">
+                            <li class="nav__li"><a href="#"> Articles</a></li>
+                            <li class="nav__li"><a href="#">Chats</a></li>
+                            <li class="nav__li"><a href="#">Awards</a></li>
+                            <li class="nav__li"><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                    <a href="contact.html"><button type="button" class="button font-tit" id="button-nav">Get in touch</button></a>
+                </nav> 
             </header>
-            <article class="main">
-                <div class="main__container">
-                    <div class="main__encabezado">
+            <main class="main">
+                <section class="main__container section1">
+                    <div class="section1__encabezado">
                         <h1 class="font-tit">Helping companies build better, scalable software.</h1>
                         <p>Award-winning web developer and author, with over 15+ years of working experience with Fortune 500 companies like Apple, Google, Facebook, and more.</p>
                     </div>
@@ -56,8 +59,8 @@
                             <p>Allowing backpack travelers to perfectly plan their trip through an open-source platform similar to TripAdvisor. With over 1m MAU, YelpCamp has been the crowd's favorite in 2021.</p>
                         </div>
                     </div>
-                </div>
-                <div class="main__container2">
+                </section>
+                <section class="main__container section2">
                     <div>
                         <p class="font-title">A co-founder at one of the world's largest communities.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quidem natus nisi nobis minus officia reprehenderit excepturi, at atque ratione debitis? Repellendus maxime enim dolore ratione minima quibusdam iusto fuga.
@@ -69,24 +72,20 @@
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius dolor iure natus, enim, ducimus nulla aut praesentium esse asperiores atque corrupti odio odit rem quod ex aspernatur harum, labore quibusdam!
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ullam qui cumque perspiciatis nam maiores unde rem non tempora temporibus? Ducimus quis, dolorum dignissimos a qui repudiandae aspernatur illum recusandae?</p>
                     </div>
-                </div>
-            </article>
+                </section>
+                <section class="main__contact">
+                    <p class="font-title">Interested in working' with me?</p>
+                    <p>I'm active on all social media platforms listed below, but you can also send me an email and i will get back to you within 24-48 hours.</p>
+                    <a href="contact.html"><button type="button" class="button font-tit">Get in touch</button></a>
+                </section>
+            </main>
             <footer class="footer">
-                <div class="footer-container">
-                    <div class="footer__contact">
-                        <div class="footer__contact__content">
-                            <p class="font-title">Interested in working' with me?</p>
-                            <p>I'm active on all social media platforms listed below, but you can also send me an email and i will get back to you within 24-48 hours.</p>
-                            <a href="contact.html"><button type="button" class="button font-tit">Get in touch</button></a>
-                        </div>
-                    </div>
-                    <div class="footer__social">
-                       <p class="font-tit"> Victoria Cia</p>
-                       <div class="footer__social__icons">
-                           <a href="https://twitter.com/?lang=es" target="_blank"><img src="media\Assets\Social Icons\Twitter.svg" class="icon-rot"> </a>
-                           <a href="https://ar.linkedin.com/" target="_blank"><img src="media\Assets\Social Icons\LinkedIn.svg" class="icon-rot"> </a>
-                           <a href="https://github.com/" target="_blank"><img src="media\Assets\Social Icons\Github.svg" class="icon-rot"> </a>
-                       </div>
+                <div class="footer__container">
+                    <p class="font-tit"> Victoria Cia</p>
+                    <div class="footer__container__icons">
+                        <a href="https://twitter.com/?lang=es" target="_blank"><img src="media\Assets\Social Icons\Twitter.svg" class="icon-rot"> </a>
+                        <a href="https://ar.linkedin.com/" target="_blank"><img src="media\Assets\Social Icons\LinkedIn.svg" class="icon-rot"> </a>
+                        <a href="https://github.com/victoriaCia/Portfolio_codewell.git" target="_blank"><img src="media\Assets\Social Icons\Github.svg" class="icon-rot"> </a>
                     </div>
                 </div>
             </footer>
