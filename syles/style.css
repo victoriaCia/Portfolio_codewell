@@ -26,6 +26,10 @@ footer__social: rgb(102, 69, 69)
     font-size: 30px;
 }
 
+.fullHeight {
+    height: 100vh;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
